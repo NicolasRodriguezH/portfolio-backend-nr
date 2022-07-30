@@ -6,21 +6,23 @@
           <hr>
 
             <b-card class="my-2 shadow-lg">
-                <span title="kevin" class="text-secondary">Kevin~</span>
+                <span title="kevin" class="text-secondary">Description</span>
                 <hr>
-                My name is Kevin, I'm 19 years old and I live in Colombia, since I'm in high school I have ventured into the world of electronics and programming.
+                    My name is Nicolas, I'm 25 years old and I live in Colombia, i'm a person passionate about the discipline and programming of optimal systems.
             </b-card>
 
             <b-card class="my-2 shadow-lg">
-                <span class="text-secondary">Kevin Bohorquez</span>
+                <span class="text-secondary">Vision</span>
                 <hr>
-                I have experience working with micro controllers, programmable and embedded boards example of these are Pic, Arduino, Raspberry Pi etc..
+                    I have experience working with micro controllers, like arduino and i like to create excellent backend systems for different needs, also generate a solid base to optimize processes
             </b-card>
 
             <b-card class="shadpow-lg">
-                <span class="text-secondary">scyth3-c</span>
+                <span class="text-secondary">Soft Skills</span>
                 <hr>
-                 I started in the world of programming with C++ on my own, since then I discovered how much I like this world, from there I was trying new technologies, new languages, I continued with javascript, Python, Php etc.. today I want to work as a web developer and continue learning and testing new technologies.
+                    I like art and the possibility of seeing things in a beautiful way, and along with this the discipline
+
+                    These skills provide me with a great amount of income since they generate taste, passion, attitude and purpose.
             </b-card>
         
     </b-container>

@@ -13,11 +13,11 @@
           <span class="text-dark font-weight-bold">Personal</span> <br>
           <hr>
          <b-badge variant="dark">
-             Kevin Bohorquez rojas
+             Nicolas Rodriguez Hilarion
          </b-badge>
          <br>
          <b-badge>
-            https://github.com/scyth3-c             
+            https://github.com/NicolasRodriguezH             
          </b-badge>
          <br>
          <b-badge variant="dark">
@@ -25,7 +25,7 @@
          </b-badge>
          <br>   
          <b-badge>
-             studying
+             Backend-developer
          </b-badge>
      </b-card>
  </b-container>
