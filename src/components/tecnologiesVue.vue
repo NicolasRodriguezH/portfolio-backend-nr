@@ -1,7 +1,7 @@
 <template>
   <b-container>
-    <b-card variant="dark" class="container shadow-lg rounded mt-5">
-      <span class="text-dark font-weight-bold">technologies of use</span> <br />
+    <b-card variant="dark" class="container shadow-lg rounded mt-5" style="background-color: rgba(0, 0, 0, 0.5);">
+      <span class="font-weight-bold" style="color: #f8f9fa; opacity: 0.8;">Technologies of use</span> <br />
       <span class="text-secondary">(move the mouse or touch the icons)</span>
 
       <hr />
@@ -27,21 +27,24 @@ export default {
   data() {
     return {
       items: [
+        { data: "devicon-unity-original" },
+        { data: "devicon-csharp-plain"},
         { data: "devicon-go-plain" },
-        { data: "devicon-javascript-plain" },
-        { data: "devicon-typescript-plain" },
-        { data: "devicon-vuejs-plain" },
-        { data: "devicon-nodejs-plain" },
+        { data: "devicon-php-plain" },
         { data: "devicon-laravel-plain" },
         { data: "devicon-mysql-plain" },
+        { data: "devicon-vuejs-plain" },
+        { data: "devicon-nodejs-plain" },
+        { data: "devicon-typescript-plain" },
+        /* 
+        { data: "devicon-javascript-plain" },
         { data: "devicon-mongodb-plain" },
         { data: "devicon-git-plain" },
         { data: "devicon-html5-plain" },
         { data: "devicon-css3-plain" },
-        { data: "devicon-php-plain" },
         { data: "devicon-linux-plain" },
         { data: "devicon-arduino-plain" },
-        { data: "devicon-adonisjs-plain" },
+        { data: "devicon-adonisjs-plain" }, */
       ],
     };
   },

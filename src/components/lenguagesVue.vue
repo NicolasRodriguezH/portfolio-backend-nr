@@ -1,7 +1,7 @@
 <template>
   <b-container>
-    <b-card variant="dark" class="shadow-lg rounded mt-5">
-      <span class="text-dark font-weight-bold">percentage of use </span>
+    <b-card variant="dark" class="shadow-lg rounded mt-5" style="background-color: rgba(0, 0, 0, 0.5);">
+      <span class="font-weight-bold" style="color: #f8f9fa; opacity: 0.8;"> Percentage of use </span>
       <br />
       <span class="text-secondary"> (this does not represent the level) </span>
       <hr />
@@ -29,12 +29,15 @@ export default {
     data() {
         return {
             bars: [
-                {title: "Laravel", value: 75, variant: "primary"},
-                {title: "Vue", value: 60, variant: "success"},
-                {title: "JavaScript", value:70, variant: "warning"},
-                {title: "TypeScript", value: 70, variant: "primary"},
-                {title: "PHP", value: 50, variant: "danger"},
-                {title: "GOlang", value: 75, variant: "primary"},
+                {title: "Unity", value: 89, variant: "primary"},
+                {title: "C#", value: 89, variant: "primary"},
+                //{title: "PHP", value: 30, variant: "danger"},
+                {title: "MySQL", value: 60, variant: "primary"},
+                //{title: "Laravel", value: 45, variant: "primary"},
+                //{title: "GOlang", value: 30, variant: "primary"},
+                //{title: "Vue", value: 35, variant: "success"},
+                //{title: "TypeScript", value: 40, variant: "primary"},
+                //{title: "JavaScript", value: 30, variant: "warning"},
             ]
         }
     }

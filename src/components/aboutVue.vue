@@ -1,31 +1,56 @@
 <template>
     
-      <b-container class="mt-4">
-    
-          <span title="about me" class="text-dark font-weight-bold">About Me</span> <br>
+      <!-- <b-container class="pt-5" style="display: flex; justify-content: space-between;">
+          <hr>
+          <span title="about me" class="font-weight-bold" style="color: #f8f9fa; opacity: 0.8; margin-bottom: 10px;">About Me</span> <br>
           <hr>
 
-            <b-card class="my-2 shadow-lg">
-                <span title="kevin" class="text-secondary">Description</span>
+            <b-card class="my-2 shadow-lg" style="background-color: rgba(0, 0, 0, 0.5); color: #f8f9fa; opacity: 0.8; flex: 1; margin-right: 14px;" >
+                <span style="color: #f8f9fa; opacity: 0.8;">Description</span>
                 <hr>
-                    My name is Nicolas, I'm 25 years old and I live in Colombia, i'm a person passionate about the discipline and programming of optimal systems.
+                    My name is Nicolás, I am 26 years old and I live in Colombia, I am passionate about art and discipline
             </b-card>
 
-            <b-card class="my-2 shadow-lg">
-                <span class="text-secondary">Vision</span>
+            <b-card class="my-2 shadow-lg" style="background-color: rgba(0, 0, 0, 0.5); color: #f8f9fa; opacity: 0.8; flex: 1; margin-right: 14px;">
+                <span style="color: #f8f9fa; opacity: 0.8;">Vision</span>
                 <hr>
-                    I have experience working with micro controllers, like arduino and i like to create excellent backend systems for different needs, also generate a solid base to optimize processes
+                    I am passionate about everything that can be created by learning and not being a user, many use these digital media but do not know how they work, it amuses me to learn to create incredible and unique things for people.
             </b-card>
 
-            <b-card class="shadpow-lg">
-                <span class="text-secondary">Soft Skills</span>
+            <b-card class="my-2 mb-5 shadow-lg" style="background-color: rgba(0, 0, 0, 0.5); color: #f8f9fa; opacity: 0.8; flex: 1;">
+                <span style="color: #f8f9fa; opacity: 0.8;">Soft Skills</span>
                 <hr>
-                    I like art and the possibility of seeing things in a beautiful way, and along with this the discipline
-
-                    These skills provide me with a great amount of income since they generate taste, passion, attitude and purpose.
+                    I am passionate about joining forces with
+                    people and artists who have the power of creators and I always help proactively in the development of new implementations and developments, with encouragement and initiative.
             </b-card>
         
+    </b-container> -->
+
+    <b-container class="pt-5" style="display: flex; flex-direction: column; align-items: center;">
+        <span title="about me" class="font-weight-bold" style="color: #f8f9fa; opacity: 0.8; margin-bottom: 10px;">About Me</span>
+        <hr>
+
+        <div style="display: flex; justify-content: space-between;">
+            <b-card class="my-2 shadow-lg" style="background-color: rgba(0, 0, 0, 0.5); color: #f8f9fa; opacity: 0.8; flex: 1; margin-right: 14px;">
+            <span style="color: #f8f9fa; opacity: 0.8;">Description</span>
+            <hr>
+            My name is Nicolás, I am 26 years old and I live in Colombia, I am passionate about art and discipline
+            </b-card>
+
+            <b-card class="my-2 shadow-lg" style="background-color: rgba(0, 0, 0, 0.5); color: #f8f9fa; opacity: 0.8; flex: 1; margin-right: 14px;">
+            <span style="color: #f8f9fa; opacity: 0.8;">Vision</span>
+            <hr>
+            I am passionate about everything that can be created by learning and not being a user, many use these digital media but do not know how they work, it amuses me to learn to create incredible and unique things for people.
+            </b-card>
+
+            <b-card class="my-2 mb-5 shadow-lg" style="background-color: rgba(0, 0, 0, 0.5); color: #f8f9fa; opacity: 0.8; flex: 1;">
+            <span style="color: #f8f9fa; opacity: 0.8;">Soft Skills</span>
+            <hr>
+            I am passionate about joining forces with people and artists who have the power of creators and I always help proactively in the development of new implementations and developments, with encouragement and initiative.
+            </b-card>
+        </div>
     </b-container>
+
 
 </template>
 

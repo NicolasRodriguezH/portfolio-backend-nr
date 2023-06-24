@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+//import Background from "./App.vue"
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
